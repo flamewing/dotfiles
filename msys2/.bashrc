@@ -45,9 +45,9 @@ alias egrep='egrep --color=auto'              # show differences in colour
 alias fgrep='fgrep --color=auto'              # show differences in colour
 alias ag='ag --color-match="1;31" --color-path=35 --color-line-number=32'
 alias code='/c/Program\ Files/Microsoft\ VS\ Code/Code.exe'
-if [ -f '/c/Program\ Files\ \(x86\)/Meld/Meld.exe' ]; then
+if [ -f '/c/Program Files (x86)/Meld/Meld.exe' ]; then
     alias meld='/c/Program\ Files\ \(x86\)/Meld/Meld.exe'
-elif [ -f '/c/Program\ Files/Meld/Meld.exe' ]; then
+elif [ -f '/c/Program Files/Meld/Meld.exe' ]; then
     alias meld='/c/Program\ Files/Meld/Meld.exe'
 fi
 
